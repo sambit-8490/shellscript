@@ -1,0 +1,27 @@
+#!/bin/bash
+
+
+
+        read -p "enter the dierctory name" f1
+        b=`mkdir  $f1`
+        echo $b 
+
+read -p "enter the dierctory name" f2
+        b=`mkdir  $f2`
+        echo $b 
+read -p "enter the dierctory name" f3
+        b=`mkdir  $f3`
+        echo $b 
+if [ -e $f1 ]
+then
+	read -p "enter the file name" t1
+	a=`touch /home/i$t1`
+fi
+
+
+        read -p "enter the file name " f2
+        b=`touch $f2`
+        echo $b
+
+
+
